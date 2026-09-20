@@ -25,7 +25,6 @@ Demonstrates **12 types of linear transforms** applied to a 2D Gaussian-distribu
 | 11 | Projection (Y-axis) | Collapse to 1D — singular, irreversible |
 | 12 | Rotation + Scaling | Composite transform |
 
-![Linear Transforms Keyframes](transformer/linear_transforms_keyframes.png)
 
 **Key observation:** Under linear transforms, straight grid lines always remain straight and parallel. The unit circle may deform into an ellipse but never into a more complex shape.
 
@@ -50,7 +49,6 @@ Demonstrates **12 types of nonlinear transforms** — the kind of operations tha
 | 11 | Fold `|x|` | All quadrants fold into first quadrant |
 | 12 | Quadratic | Power-law amplification |
 
-![Nonlinear Transforms Keyframes](transformer/nonlinear_transforms_keyframes.png)
 
 **Key observation:** Unlike linear transforms, nonlinear transforms **bend and curve** the grid lines. This is exactly why neural networks need nonlinear activation functions — only nonlinearity can learn complex decision boundaries.
 
@@ -60,7 +58,6 @@ Demonstrates **12 types of nonlinear transforms** — the kind of operations tha
 
 Combines both: shows a full **neural network forward pass** (Linear → ReLU → Linear → ReLU) solving the classic **XOR problem** — a dataset that is linearly inseparable in the original space but becomes separable after the network transforms the geometry step by step.
 
-![NN Transform Keyframes](transformer/nn_transform_keyframes.png)
 
 ---
 
