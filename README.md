@@ -1,4 +1,4 @@
-# Deep Learning Visualizations & Experiments
+# Transform Visualizations & Experiments
 
 A collection of deep learning experiments, Transformer implementations, and **interactive geometric visualizations** that reveal how neural networks transform space.
 
